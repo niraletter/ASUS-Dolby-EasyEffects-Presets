@@ -1,6 +1,6 @@
 # ASUS Dolby EasyEffects Presets
 
-A set of EasyEffects output presets recreating the four **Dolby Audio** modes found on ASUS laptops — ported and corrected for **EasyEffects 8.x (Qt)**.
+A set of EasyEffects output presets recreating the four **Dolby Audio** modes found on ASUS laptops — ported and corrected for **EasyEffects 8.x**.
 
 ## Presets
 
@@ -21,7 +21,7 @@ Equalizer (23-band IIR, APO DR) → Compressor (Downward) → Limiter (Herm Thin
 
 ## Requirements
 
-- [EasyEffects](https://github.com/wwmm/easyeffects) **8.0.0 or higher** (Qt version)
+- [EasyEffects](https://github.com/wwmm/easyeffects) **8.x**
 - PipeWire audio backend
 
 > If you are on EasyEffects 6.x–7.x (GTK), these presets will **not** load correctly due to format differences.
