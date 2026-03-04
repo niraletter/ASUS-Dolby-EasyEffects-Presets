@@ -52,7 +52,3 @@ Equalizer (23-band IIR, APO DR) → Compressor (Downward) → Limiter (Herm Thin
 ASUS ships Dolby Audio processing on many of its laptops for Windows, but there is no official Linux equivalent. These presets were reverse-engineered from the Dolby Audio profiles and converted to the EasyEffects JSON format so Linux users can get a similar tuned sound on their ASUS hardware.
 
 The JSON structure follows the EasyEffects 8.x Qt format — bands are nested under `left` / `right` channel objects, each band includes a `width` field (computed from the Q value), and legacy GTK-era keys (`right-ch`, `split-channels`) have been removed.
-
-## License
-
-[MIT](LICENSE)
